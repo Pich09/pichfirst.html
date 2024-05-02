@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Body of html file contains everything that is shown on the web page-->
+    <h1> This is first HTML</h1>
+    <!--Header-->
+    <main>
+        <h2>Dog Photo App</h2>
+        <!--Paragraph-->
+        <p>This is a photo of a dog smiling at the camera. <a href="Dog.jpg" target="_blank">Dog Photo</a>.</p>
+        <a href="Dog.jpg"><img src="Dog.jpg" alt="A picture of smiling dog"></a>
+        <h3>About dogs</h3>
+        <p>Things dogs love: </p>
+        <ul>
+            <!--Unordered list has no index-->
+            <li>Bones</li>
+            <li>Ping Pong Ball</li>
+            <li>Going for a walk</li>
+        </ul>
+        <p>Things dogs hate: </p>
+        <ol>
+            <!---Order list will show the number 1 2 3 before each lines of list-->
+            <li>Chilly</li>
+            <li>Onions</li>
+            <li>Bad People</li>
+        </ol>
+        <form action="/submit-dog-photo">
+            <!--getting input from user-->
+            <label for="Indoor"><input type="radio" id = "Indoor" name="Indoor-Outdoor" checked> Indoor </label><br>
+            <!--Names of both labels have to be the same here to make things work out-->
+            <label for="Outdoor"><input type="radio" id = "Outdoor" name="Indoor-Outdoor"> Outdoor </label><br>
+            <input type="text" placeholder="Enter cat's name" required><br>
+            <input type = "number" placeholder="Enter the age"><br>
+            <input type="date"> Select Date
+            <label for="Remember"><input type="checkbox" id="Remember" name="Remember"> Remember Me </label> <br>
+            <input type= "color"> Color Picker <br>
+            <!--These are the things about button-->
+            <button type="submit">Submit</button> <br>
+            <button type="button">Button</button> <br>
+            <button type="menu">Menu</button> <br>
+            <button type="reset">Reset Webpage</button> <br>
+        </form>
+        <!--Div element is used for css when we want style-->
+        <!--Div is used as class in programming language, so there are common datafields within it-->
+        <div class = "lines">
+            <p>There are a few things to think of: </p>
+            <ol>
+                <li>This is first line</li>
+                <li>This is second line</li>
+                <li>This is third line</li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <p>No copy - <a href="https://freecodecamp.org">From Pich</a></p>
+    </footer>
+</body>
+</html>
